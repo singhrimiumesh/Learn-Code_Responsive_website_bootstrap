@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  
+</head>
+<body>
+ 
+    <header id="home">
+     <nav class="navbar navbar-expand-lg navbar-light bg-white px-4 border-bottom fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand fs-2" href="#">Learn<span class="text-secondary">&</span>Code</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5 text-center">
+              <li class="nav-item">
+                <a class="nav-link active text-primary" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Courses
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#courses">HTML</a></li>
+                  <li><a class="dropdown-item" href="#courses">CSS</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#courses">More</a></li>
+                </ul>
+              </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#team">Our Team</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+            </li>
+        </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/c1.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-md-block text-dark fs-5">
+              <h1>LEARN</h1>
+              <p>Elevate your knowledge with a focus on continuous learning. 
+                Uncover new insights, acquire valuable skills, and broaden your understanding through educational resources and interactive content.</p>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/c2.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-md-block fs-5">
+              <h1>CODE</h1>
+              <p>Dive into the world of coding where creativity meets functionality. 
+                Transform ideas into reality, craft software solutions, and explore the art of programming to unleash your full potential.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/c3.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-md-block text-dark fs-5">
+              <h1>EXPLORE</h1>
+              <p>Embark on a journey of discovery. 
+                Navigate through innovative technologies, stay abreast of emerging trends, and explore the vast possibilities that the digital landscape has to offer. 
+                Expand your horizons and embrace the ever-evolving world of tech.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    </header>
+
+    <section class="about my-5" id="about">
+        <div class="container">
+            <div class="text-center my-5">
+                <h1 data-aos="zoom-in" data-aos-offset="100">About <span class="text-primary">HTML, CSS & JavaScript</span></h1>
+                <hr class="w-25 m-auto">
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-6 col-12">
+                    <h1 data-aos="fade-right" data-aos-offset="100">Unlocking the Web's Secrets: Decoding HTML, CSS, and JavaScript</h1>
+                    <p class="p-2" data-aos="fade-right" data-aos-offset="100">Ever wondered what makes the websites we visit visually appealing, structurally sound, and dynamically responsive? 
+                        The answer lies in the trinity of HTML, CSS, and JavaScript. The fundamental building blocks of the web. 
+                        These technologies not only define the structure and style of web pages but also bring them to life with interactive elements. 
+                        Delving into the world of web development, understanding why and how we code with HTML, CSS, and JavaScript is a journey into 
+                        the art and science of creating captivating online experiences.
+                    </p>
+                    <button type="button" class="btn btn-light mb-5" data-aos="zoom-in" data-aos-offset="100">Read More</button>
+
+                    <div class="accordion" id="accordionExample" data-aos="fade-right" data-aos-offset="100">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                HTML
+                            </button>
+                          </h2>
+                          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              <strong>HyperText Markup Language</strong><br>
+                                At the heart of web development is HTML, a markup language that acts as the architectural framework for online content. 
+                                Ever wondered how a simple line of code can transform into a fully-fledged webpage? HTML, with its tags and attributes, holds the key. 
+                                It provides the structural backbone, defining headings, paragraphs, images, links, and more. 
+                                Think of HTML as the blueprint, setting the stage for the creative styling prowess of CSS and the dynamic functionality of JavaScript.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                              CSS
+                            </button>
+                          </h2>
+                          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              <strong>Cascading Style Sheets</strong><br>
+                                Once the structure is laid out, the aesthetics take center stage with the magic of CSS. 
+                                Why settle for a plain webpage when you can style it to perfection? Cascading Style Sheets, or CSS, empowers developers to control layout, colors, fonts, and overall visual appeal. 
+                                Through selectors and declarations, CSS allows for the separation of content from design, making it easier to maintain and update the look and feel of a site. 
+                                It's the artistic touch that transforms a basic webpage into a visually stunning digital masterpiece.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                              JS
+                            </button>
+                          </h2>
+                          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              <strong>JavaScript</strong><br>
+                                But what about making web pages more than just static visuals? This is where JavaScript steps in, adding interactivity and dynamism. 
+                                Why settle for static when you can have dynamic, responsive elements? JavaScript, as a versatile scripting language, enables developers to create interactive elements, handle user inputs, and dynamically modify page content. 
+                                By manipulating the Document Object Model (DOM), JavaScript turns static pages into dynamic, engaging applications. 
+                                From form validation to asynchronous data fetching, JavaScript is the engine that powers the modern web experience.
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6 col-12 m-auto text-end">
+                    <img src="img/a1.jpg" class="img-fluid img-thumbnail" data-aos="fade-left" data-aos-offset="100">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="courses py-5 bg-light" id="courses">
+        <div class="container">
+            <div class="text-center my-5">
+                <h1 data-aos="zoom-in" data-aos-offset="100">Courses</h1>
+                <hr class="w-25 m-auto">
+            </div>
+            <div class="row">
+            <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+                <div class="card" style="width: 24rem;" data-aos="fade-up" data-aos-offset="100">
+                    <div class="card-body">
+                      <i class="fa fa-html5 bg-primary p-2 text-white mb-2 rounded"></i>
+                      <h5 class="card-title">HTML Part-1</h5>
+                      <p class="card-text">In the first part of your HTML learning journey, you will delve into the fundamental building blocks
+                        of web development. Starting with an introduction to HTML, you'll grasp the core concepts, understanding the structure
+                        of an HTML document and the roles played by tags, attributes, and elements...Read more</p>
+                      <a href="#" class="btn btn-primary">Start Learning</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+                <div class="card bg-primary text-white" style="width: 24rem;" data-aos="fade-up" data-aos-offset="100">
+                    <div class="card-body">
+                        <i class="fa fa-css3 bg-white p-2 text-primary rounded mb-2"></i>
+                      <h5 class="card-title">CSS Part-1</h5>
+                      <p class="card-text">Embark on your journey into the realm of Cascading Style Sheets (CSS) with a focus on the fundamentals.In this initial stage, you will explore the basics of styling HTML elements to enhance the visual appeal of your web pages. Topics include understanding the syntax of CSS, applying styles to text...Read more</p>
+                      <a href="#" class="btn btn-primary bg-white text-primary">Start Learning</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+                <div class="card" style="width: 24rem;" data-aos="fade-up" data-aos-offset="100">
+                    <div class="card-body">
+                     <i class="fa fa-file bg-primary p-2 text-white mb-2 rounded"></i>
+                      <h5 class="card-title">JavaScript Part-1</h5>
+                      <p class="card-text">Embark on your JavaScript journey with a solid foundation in the fundamental concepts that power dynamic and interactive
+                         web development. Begin by understanding the basics of programming, including variables, data types...Read more</p>
+                      <a href="#" class="btn btn-primary">Start Learning</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+                <div class="card" style="width: 24rem;" data-aos="fade-up" data-aos-offset="100">
+                    <div class="card-body">
+                      <i class="fa fa-html5 bg-primary p-2 text-white rounded mb-2"></i>
+                      <h5 class="card-title">HTML Part-2</h5>
+                      <p class="card-text">In the second part of your HTML learning journey, you'll ascend to more advanced concepts, 
+                        exploring the latest features introduced in HTML5. This includes mastering new semantic elements like header, footer, article, 
+                        and section, as well as incorporating multimedia elements such as audio and video...Read more</p>
+                      <a href="#" class="btn btn-primary">Start Learning</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+                <div class="card bg-primary text-white" style="width: 24rem;" data-aos="fade-up" data-aos-offset="100">
+                    <div class="card-body">
+                      <i class="fa fa-css3 bg-white p-2 text-primary rounded mb-2"></i>
+                      <h5 class="card-title">CSS Part-2</h5>
+                      <p class="card-text">Building upon the fundamentals, the second part of your CSS exploration delves into more advanced techniques to elevate
+                         your styling prowess. Discover the power of Flexbox and Grid to create responsive and dynamic layouts, allowing for more complex and flexible 
+                         designs...Read more</p>
+                      <a href="#" class="btn btn-primary bg-white text-primary">Start Learning</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+                <div class="card" style="width: 24rem;" data-aos="fade-up" data-aos-offset="100">
+                    <div class="card-body">
+                      <i class="fa fa-file bg-primary p-2 text-white mb-2 rounded"></i>
+                      <h5 class="card-title">JavaScript Part-2</h5>
+                      <p class="card-text">Building on the fundamentals, the second part of your JavaScript journey delves into more advanced concepts to enhance 
+                        your programming skills. Explore object-oriented programming (OOP) principles in JavaScript, understanding how to create and use classes and
+                         prototypes. Learn about closures, scope, and the 'this' keyword...Read more</p>
+                      <a href="#" class="btn btn-primary">Start Learning</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+    <section class="team my-5 text-center" id="team"> 
+        <div class="container">
+            <div class="text-center my-5">
+                <h1 data-aos="zoom-in" data-aos-offset="100">Our Team</h1>
+                <hr class="w-25 m-auto">
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+                    <div class="card" style="width: 18rem;" data-aos="fade-right" data-aos-offset="100">
+                        <div class="card-body">
+                            <img src="img/t1.png" class="img-fluid rounded-circle border-primary p-2">
+                          <h5 class="card-title mt-4">Mr. X</h5>
+                          <p class="card-text">HTML Tutor</p>
+                          <a href="#" class="btn btn-primary">View Profile</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+                    <div class="card" style="width: 18rem;" data-aos="fade-right" data-aos-offset="200">
+                        <div class="card-body">
+                            <img src="img/t2.png" class="img-fluid rounded-circle border-primary p-2">
+                          <h5 class="card-title mt-4">Miss. Y</h5>
+                          <p class="card-text">CSS Tutor</p>
+                          <a href="#" class="btn btn-primary">View Profile</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+                    <div class="card" style="width: 18rem;" data-aos="fade-right" data-aos-offset="300">
+                        <div class="card-body">
+                            <img src="img/t3.png" class="img-fluid rounded-circle border-primary p-2">
+                          <h5 class="card-title mt-4">Mr. Z</h5>
+                          <p class="card-text">JavaScript Tutor</p>
+                          <a href="#" class="btn btn-primary">View Profile</a>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+ 
+
+    <section class="contact py-5" id="contact">
+        <div class="container">
+            <div class="text-center my-5">
+                <h1 data-aos="zoom-in" data-aos-offset="100">Contact Us</h1>
+                <hr class="w-25 m-auto">
+            </div> 
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-6 col-12" >
+                    <form class="row g-3" data-aos="fade-right" data-aos-offset="100">
+                        <div class="col-md-6">
+                          <label for="inputEmail4" class="form-label">Email</label>
+                          <input type="email" class="form-control" id="inputEmail4" placeholder="xyz@gmail.com">
+                        </div>
+                        <div class="col-md-6">
+                          <label for="inputPassword4" class="form-label">Password</label>
+                          <input type="password" class="form-control" id="inputPassword4">
+                        </div>
+                        <div class="col-12">
+                          <label for="inputAddress" class="form-label">Address</label>
+                          <input type="text" class="form-control" id="inputAddress" placeholder=" Your address">
+                        </div>
+                        <div class="col-md-6">
+                          <label for="inputCity" class="form-label">City</label>
+                          <input type="text" class="form-control" id="inputCity">
+                        </div>
+                        <div class="col-md-4">
+                          <label for="inputState" class="form-label">State</label>
+                          <select id="inputState" class="form-select">
+                            <option selected>Choose...</option>
+                            <option>...</option>
+                          </select>
+                        </div>
+                        <div class="col-md-2">
+                          <label for="inputZip" class="form-label">Zip</label>
+                          <input type="text" class="form-control" id="inputZip" placeholder="000 000">
+                        </div>
+                        <div class="col-12">
+                          <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                      </form>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6 col-12 m-auto text-end p-4">
+                    <img src="img/contactus.png" class="img-fluid img-thumbnail p-2" data-aos="fade-left" data-aos-offset="100">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+   <div class="container-fluid bg-primary text-white p-2 text-center fs-4">&copy; 2023 learn&code </div> 
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+
+</body>
+</html>
